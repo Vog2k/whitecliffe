@@ -55,7 +55,7 @@ while OPTION_FLAG != 0:
             print("ID: ", obj.ID)
             print("Name: ", obj.Name)
             print("Description of the order: ", obj.Desc)
-            print("Ticket Status: ", obj.Order_STATUS)
+            print("Order Status: ", obj.Order_STATUS)
 
             if obj.Response != "N/A":
                 print("Response: ", obj.Response)
