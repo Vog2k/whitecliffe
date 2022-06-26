@@ -1,0 +1,23 @@
+3 Software Design Principles
+
+
+KISS [Keep In Simple Stupid]
+Keeping it simple in this code Nidhi has made sure to not to repeat himself throughout the code if the current code was
+100 times bigger there would be a headache. Keeping simple the whole way through this cleans up the code making it easier
+for another Developer to look over and understand for example me, I was able to understand what the code did and what ran
+while it was being tested, The key to maintaining KISS is to always recheck your work to make sure it is simple and clean
+
+
+DRY [Don't Repeat Yourself]
+Used in this particular code (class Create_Order) While creating this class, This makes the code much more clearer
+and easier to read while also being called again and again when promoted this will also avoid redundancy but as seen here
+the code def DisplayOrder(obj): has been implemented twice and causes the code on this line to be made redundant. Easy
+fix would simply just be to remove this line from the program this wont case any errors as the current code is already
+in whitecliffe_food_ordering.py
+
+
+Single responsibility principle
+Implemented in class Helper_Func(object): this code is the main definition of single responsibility principle having one
+responsibility to print the users ticket with their information provided. Every class should have responsibility over a
+single part of the program and should be entirely encapsulated by the class. If this class should need to be edited
+then it will be easy enough to just create a child class
